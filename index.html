@@ -9,22 +9,105 @@
 <body>
     <!-- first title -->
     <!-- span is used Apply color nad others-->
-    <h1><span style="color:cornflowerblue">My Portfolio</span></h1>
+    <header>
+        <h1 id="title"><span>My Portfolio</span></h1>
+    </header>
+    <div>
+        <p>engineering student</p>
+    </div>
     <!-- space without line -->
-    <br>
     <!-- space with line -->
     <hr>
     <!-- paragraph -->
-    <p>My media contact</p>
-    <a href="https://www.linkedin.com/in/franco-robotti-415786229/"> Linkedin</a>
-    <img scr="img/Linkedin.png" />
+
+    <section>
+        <img src="img/HackerMan.png" alt="300" width="250">
+
+        <p>Im a super HackerMan, im living in the pluto noise and im trapito</p>
+
+    </section>
+
     <br>
     <br>
-    <a href="https://github.com/RobottiFranco?tab=repositories"> GitHub</a>
+
+    <section>
+
+        <h2 id="knowledge">Knowledge and technologies</h2>
+        <p>Can you see how i can do</p>
+
+        <article class="post">
+            <img src="img/HTML.png" height="200" width="200" />
+        </article>
+
+        <article class="post">
+            <img src="img/CSS.webp" height="200" width="200" />
+        </article>
+
+        <article>
+            <img src="img/JavaScript.png" height="200" width="200" />
+        </article>
+
+        <article class="post">
+            <img src="img/Python.png" height="200" width="200" />
+        </article>
+
+    </section>
+    
     <br>
     <br>
-    <p>My second paragraph
-        
-    </p>
+
+    <section>
+        <h2>Proyects</h2>
+        <article>
+            <h3>Web pages</h3>
+
+            <p>Franco's Portfolio</p>
+            <p>Kyky's - Dulces y Postres</p>
+
+        </article>
+
+        <article>
+            <h3>Bots</h3>
+
+            <p>Discord bot</p>
+            
+        </article>
+
+    </article>
+
+    <br>
+    <br>
+
+    <section>
+        <h2>Contact</h2>
+
+        <form action="/form" method="post">
+            <label for="Name"></label>
+                <input type="text" id="Name" name="Name" placeholder="Enter Name/Company">
+                <br>
+                <label for="Mail"></label>
+                <input type="text" id="Mail" name="Mail" placeholder="Enter email">
+                <br>
+                <label for="Mesagge"></label>
+                <br>
+                <textarea name="Mesagge" id="Mesagge" placeholder="Enter message" cols="30" rows="10"></textarea>
+                <br>
+                <button type="button">Enviar</button> <!-- botton, submit, reset --> <!-- can add img -->
+            </form>
+
+    </section>
+
+    <br>
+    <br>
+
+    <footer>
+
+        <a href="https://www.linkedin.com/in/franco-robotti-415786229/"> <img src="img/Linkedin.png" height="100" /> </a>
+
+        <a href="https://github.com/RobottiFranco?tab=repositories"> <img src="img/GitHub.png" height="100" /> </a>
+
+        <a href="#title">Back</a>
+
+    </footer>
 </body>
 </html>
