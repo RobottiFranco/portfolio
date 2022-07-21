@@ -23,6 +23,18 @@ header h1{
     float: right;
 }
 
+#content{
+    display: flex;
+    text-align: center;
+    padding: 7rem 25rem;
+
+}
+
+#content2
+{
+    display: flex;
+}
+
 #profile article{
     padding: 2rem 2rem;
 }
@@ -35,6 +47,7 @@ header p{
 
 #profile img{
     padding: 1rem 3rem; 
+
     /* para que no este todo pegado */
 }
 
