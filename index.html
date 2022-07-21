@@ -1,85 +1,102 @@
-<!-- define content, its HTML -->
 <!DOCTYPE html>
-<!-- define language of content -->
-<html lang="en"> 
+<html lang="en">
 <head>
-    <!-- Title of page in browser -->
-    <title>Franco's Portfolio</title>
+    <title>Franco's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <!-- first title -->
-    <!-- span is used Apply color nad others-->
     <header>
-        <h1 id="title"><span>My Portfolio</span></h1>
-    </header>
-    <div>
+        <h1 id="return">FRANCO ROBOTTI</h1>
         <p>engineering student</p>
-    </div>
-    <!-- space without line -->
-    <!-- space with line -->
-    <hr>
-    <!-- paragraph -->
+    </header>
+    
+    <section id="profile">
 
-    <section>
-        <img src="img/HackerMan.png" alt="300" width="250">
+        <img src="img/HackerMan.png" width="400">
+        
+        <article>
+            <p>
+                Currently 20 years old, I am studying a computer engineering degree and I create personal training projects seeking to broaden my horizons.
+                Right now you are seeing the first version of my portfolio, where you can find my technologies, projects and contact forms.
+            </p>
+        </article>
 
-        <p>Im a super HackerMan, im living in the pluto noise and im trapito</p>
 
     </section>
 
-    <br>
-    <br>
+    <section id="technologies">
 
-    <section>
-
-        <h2 id="knowledge">Knowledge and technologies</h2>
-        <p>Can you see how i can do</p>
+        <h2 class="title">Knowledge and technologies</h2>
+        <p>Can you see how can i do</p>
 
         <article class="post">
             <img src="img/HTML.png" height="200" width="200" />
         </article>
 
         <article class="post">
-            <img src="img/CSS.webp" height="200" width="200" />
+            <img src="img/CSS.png" height="200" width="200" />
         </article>
 
-        <article>
+        <article class="post">
             <img src="img/JavaScript.png" height="200" width="200" />
         </article>
-
+ 
         <article class="post">
             <img src="img/Python.png" height="200" width="200" />
         </article>
 
-    </section>
-    
-    <br>
-    <br>
-
-    <section>
-        <h2>Proyects</h2>
-        <article>
-            <h3>Web pages</h3>
-
-            <p>Franco's Portfolio</p>
-            <p>Kyky's - Dulces y Postres</p>
-
+        <article class="post">
+            <img src="img/cSharp.png" height="200" width="200"/>
         </article>
 
-        <article>
-            <h3>Bots</h3>
+        <article class="post">
+            <img src="img/Git.png" height="200" width="200" />
+        </article>
 
-            <p>Discord bot</p>
+        <article class="post">
+            <img src="img/GitHub.png" height="200" width="200" />
+        </article>
+
+    </section>
+
+    <section id="proyects">
+
+        <h2 class="title">Proyects</h2>
+        <h3 class="title2">Web pages</h3>
+        <article class="inline">
+
+            <h3 class="title2">Franco's Portfolio</h3>
+            
+            <a href="#return"> <img src="img/proyectPortpolio.jpeg" height="300"></a>
+            <p>This project, every time I learn something new related to web development I will improve this page</p>
             
         </article>
+        
+        <article>
 
-    </article>
+            <h3 class="title2">Kyky's - Dulces y Postres</h3>
+            <img src="img/cake.jpg" height="300">
+            <p></p>
 
-    <br>
-    <br>
+        </article>
 
-    <section>
-        <h2>Contact</h2>
+        <h3 class="title2">Bots</h3>
+
+        <article>
+
+            <h3 class="title2">Discord bot</h3>
+            <img src="img/Discord.png" height="300">
+            <p>in this bot you can add to your server and play music from different media such as YouTube or Spotify</p>
+
+        </article>
+
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact to me</h2>
 
         <form action="/form" method="post">
             <label for="Name"></label>
@@ -97,16 +114,16 @@
 
     </section>
 
-    <br>
-    <br>
-
     <footer>
+        <section>
 
-        <a href="https://www.linkedin.com/in/franco-robotti-415786229/"> <img src="img/Linkedin.png" height="100" /> </a>
+            <a target="_blank" href="https://www.linkedin.com/in/franco-robotti-415786229/"> <img src="img/Linkedin.png" height="50" /> </a>
 
-        <a href="https://github.com/RobottiFranco?tab=repositories"> <img src="img/GitHub.png" height="100" /> </a>
+            <a target="_blank" href="https://github.com/RobottiFranco?tab=repositories"> <img src="img/GitHub.png" height="50" /> </a>
 
-        <a href="#title">Back</a>
+            <a target="_blank" href="franco.robotti@gmail.com"> <img src="img/mail.png" height="50" /> </a>
+            
+        </section>
 
     </footer>
 </body>
