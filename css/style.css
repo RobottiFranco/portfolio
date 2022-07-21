@@ -23,6 +23,18 @@ header h1{
     float: right;
 }
 
+#content{
+    display: flex;
+    text-align: center;
+    padding: 7rem 25rem;
+
+}
+
+#content2
+{
+    display: flex;
+}
+
 #profile article{
     padding: 2rem 2rem;
 }
@@ -35,6 +47,7 @@ header p{
 
 #profile img{
     padding: 1rem 3rem; 
+
     /* para que no este todo pegado */
 }
 
@@ -68,7 +81,6 @@ header p{
 
 .post{
     display: inline;
-
 }
 
 #contact{
@@ -79,10 +91,10 @@ footer, #contact{
     padding: 4rem;
 }
 
-footer section{
+footer section div{
+    padding: 0 0.5rem;
+    display: inline;
     float: right;
-    padding: 0rem 0rem;
-    margin: 0;
 }
 
 .title, .title2, p, h1{
@@ -96,3 +108,21 @@ footer section{
 .title2{
     font-size: 1.5rem;
 }
+
+button, textarea, input{
+    padding      : 5px;
+    font         : 3rem;
+    border       : 2px solid rgb(84, 23, 102);
+    border-radius: 5px;
+    background   : rgb(36, 17, 43);
+    cursor       : pointer;
+    color: #FFF;
+    size: 128rem;
+  }
+  
+  
+  button:hover, button:focus {
+
+    background  : rgb(235, 227, 227);
+    color       : #FFF;
+  }
